@@ -3,6 +3,7 @@
 
 import os
 from langchain_openai import ChatOpenAI
+from langchain_anthropic import ChatAnthropic
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain, SequentialChain, SimpleSequentialChain
 from langchain.schema import BaseOutputParser
