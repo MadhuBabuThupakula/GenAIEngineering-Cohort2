@@ -8,7 +8,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain.chains import LLMChain, SequentialChain, SimpleSequentialChain
 
 # Set your OpenAI API key
-# os.environ["OPENAI_API_KEY"] = "your-api-key-here"
+os.environ["OPENAI_API_KEY"] = "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"
 
 # Initialize the LLM
 llm = ChatOpenAI(
