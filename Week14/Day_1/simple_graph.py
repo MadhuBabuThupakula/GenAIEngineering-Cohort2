@@ -58,6 +58,6 @@ workflow.add_edge("handle_search", END)
 # Step 6: Compile and Run the Graph
 app = workflow.compile()
 
-inputs = {"question": "Hi, how are you?"}
+inputs = {"question": "how are you?"}
 result = app.invoke(inputs)
 print(result)
